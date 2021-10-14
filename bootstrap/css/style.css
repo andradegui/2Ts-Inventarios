@@ -1,10 +1,29 @@
 /*008CD5*/
 
 .color-blue:hover {
-    color: #008CD5!important;
+    color: rgb(0, 139, 214)!important;
 }
 
 .space{
     margin: 100px!important;
+}
+
+.caixa-azul {
+    
+    /*background-image: linear-gradient(
+        to bottom,
+        rgb(0, 139, 214),
+        rgb(0, 139, 214),
+        white
+      );
+      */
+    background-color: rgba(0, 139, 214, 0.801);  
+    background-attachment: fixed;
+    height: 480px;
+    border-radius: 5px;
+}
+
+.caixa {
+    height: 480px;
 }
 
