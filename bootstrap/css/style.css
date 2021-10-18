@@ -27,3 +27,16 @@
     height: 480px;
 }
 
+.color  {
+    color:#51A5C9!important;
+}
+
+footer {
+    height: 90px;
+}
+
+.bg-footer {
+    background-color: #000;
+    color: #51A5C9!important;
+    cursor: pointer;
+}
