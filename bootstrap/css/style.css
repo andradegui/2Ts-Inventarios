@@ -1,4 +1,7 @@
 /*008CD5*/
+body{
+    background-color:rgb(241, 241, 241)!important;
+}
 
 .color-blue:hover {
     color: rgb(0, 139, 214)!important;
