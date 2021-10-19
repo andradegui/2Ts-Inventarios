@@ -18,6 +18,9 @@
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
 
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/5082049b2f.js" crossorigin="anonymous"></script>
+
   <title>2T´s Inventários</title>
 </head>
 
@@ -37,11 +40,14 @@
 
         <di id="divMenu" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto pt-4 fs-5 fw-bold active">
-            <li class="nav-item">
+            <li class="nav-item d-none d-xl-block">
               <a href="#home" class="nav-link click color-blue">Home</a>
             </li>
             <li class="nav-item">
               <a href="#qmSomos" class="nav-link click color-blue">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a href="/servicos.html" class="nav-link click color-blue">Serviços</a>
             </li>
             <li class="nav-item">
               <a href="#contato" class="nav-link click color-blue">Contato</a>
@@ -52,15 +58,13 @@
     </nav>
   </header>
 
- 
-
   <section class="space"></section>
 
   <main class="">
-    
+
     <!--CARROUSSEL-->
-    <section class="pt-5">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide d-none d-md-block" data-bs-ride="carousel">
+    <section class="pt-sm-5 pt-2" id="home">
+      <div id="carouselExampleDark" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -71,20 +75,30 @@
         </div>
         <div class="carousel-inner d-none d-md-block">
           <div class="carousel-item active text-center text-sm-center" data-bs-interval="10000">
-            <img src="./imagens/money.png" class="" alt="..." >
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <img src="./imagens/carrousel-1.png" class="rounded-1" alt="...">
+            <div class="carousel-caption d-flex text-center justify-content-center align-items-center pb-5">
+              <div class="propaganda-carroussel text-center">
+                <h5 class="fw-bold fs-4 pt-2">Conheca Nossos Serviços</h5>
+                <p class="fw-bold fs-5">Temos serviços de inventário e TI, clique aqui para saber mais sobre nosso trabalho!</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item text-center text-sm-center" data-bs-interval="1000">
-            <img src="./imagens/Component 1.png" class="rounded-1" alt="...">            
+          <div class="carousel-item text-center text-sm-center" data-bs-interval="10000">
+            <img src="./imagens/carrousel-2.png" class="rounded-1" alt="...">
+            <div class="carousel-caption d-flex text-center justify-content-center align-items-center pb-5">
+              <div class="propaganda-carroussel text-center">
+                <h5 class="fw-bold fs-4 pt-2">Uma Empresa Diferenciada no Mercado</h5>
+                <p class="fw-bold fs-5">Ajudamos na vida financeira do seu negócio, entre em contato e saiba como!</p>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item text-center text-sm-center" data-bs-interval="1000">
-            <img src="./imagens/caroussel.png" class="" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+          <div class="carousel-item text-center text-sm-center" data-bs-interval="10000">
+            <img src="./imagens/carrousel-3.png" class="rounded-1" alt="...">
+            <div class="carousel-caption d-flex text-center justify-content-center align-items-center pb-5">
+              <div class="propaganda-carroussel text-center">
+                <h5 class="fw-bold fs-4 pt-2">Oferecemos Relatótios Personalizado</h5>
+                <p class="fw-bold fs-5">Após a contagem, enviamos ao cliente um relatório para ele obter uma visão com acuracidade dos seus produtos.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -100,28 +114,162 @@
     </section>
 
     <!--QUEM SOMOS-->
-    <section class="container mt-5 text-center">
+    <section id="qmSomos" class="container mt-5 text-center">
       <h2 class="text-center">Quem Somos</h2>
       <div class="row">
-        <section class="col-xl fs-5 pt-3 text-sm-start text-center">
+
+        <section class="col-xl pt-sm-5 pt-1 text-sm-start text-center">
           <p>
-            A 2 T’s Inventários & Consultoria nasceu em 2018 contando com mais de 22 anos de experiência de seus sócios neste ramo de negócio, com o intuito de aprimorar e oferecer o melhor serviço na área de inventários, pois enxergarmos e constatamos através de amigos empresários do setor, uma grande dificuldade em encontrar empresas que executem o serviço com qualidade, e que atenda a necessidade em serviço de inventário, principalmente no segmento de postos de combustíveis, lojas de conveniências e trocas de óleo.
+            A 2 T’s Inventários & Consultoria nasceu em 2018 contando com mais de 22 anos de experiência de seus sócios
+            neste ramo de negócio, com o intuito de aprimorar e oferecer o melhor serviço na área de inventários, pois
+            enxergarmos e constatamos através de amigos empresários do setor, uma grande dificuldade em encontrar
+            empresas que executem o serviço com qualidade, e que atenda a necessidade em serviço de inventário,
+            principalmente no segmento de postos de combustíveis, lojas de conveniências e trocas de óleo.
           </p>
           <p>
-            Mediante esse segmento, além do inventário, prestamos consultoria na área de Infraestrutura, comunicação (Router, VPN, Rede, Servidores, PCs) na centralização para os postos, com suporte aos diversos Sistemas do mercado.
+            Mediante esse segmento, além do inventário, prestamos consultoria na área de Infraestrutura, comunicação
+            (Router, VPN, Rede, Servidores, PCs) na centralização para os postos, com suporte aos diversos Sistemas do
+            mercado.
           </p>
         </section>
-        <section class="col-xl text-center pt-3 align-items-center justify-content-center space-left">
-          <img src="./imagens/qm-somos.png" alt="" class="text-center d-none d-md-block space-left">
+        <section class="col-xl text-center pt-3 d-flex align-items-center justify-content-center space-left">
+          <img src="./imagens/qm-somos.png" alt="" class="text-center d-none d-md-block">
           <img src="./imagens/qm-somos-responsivo.png" alt="" class="text-center d-sm-none">
         </section>
       </div>
     </section>
+    <!--MISSAO VISAO VALORES-->
+    <section class="mt-5 container">
+      <div class="row">
+        <section class="col-xl d-flex text-center align-items-center justify-content-center">
+          <img src="./imagens/qm-somos.png" alt="" class="text-center d-none d-md-block">
+        </section>
 
-    <!--CARDS DE SERVIÇO-->
+        <section class="col-xl pt-3">
+          <h5 class="text-sm-start text-center">Missão</h5>
+          <p class="text-sm-start text-center">
+            Ser referência na prestação de serviços de inventário de estoque e consultoria, destinados a atender com
+            excelência às necessidades dos nossos clientes, superando suas expectativas com qualidade e
+            responsabilidade, proporcionando o crescimento e o desenvolvimento dos nossos colaboradores, bem como da
+            comunidade onde atuamos.
+          </p>
+          <h5 class="text-sm-start text-center">Visão</h5>
+          <p class="text-sm-start text-center">
+            Ser a melhor empresa do setor, reconhecida pela ótima prestação de serviços, por equipes capacitadas,
+            comprometidas com a qualidade e a satisfação dos clientes, destacando-se pelo objetivo de rentabilizar os
+            negócios dos parceiros, gerando um maior controle do seu estoque e margens de lucro corretas.
+          </p>
+
+          <h5 class="text-sm-start text-center">Valores</h5>
+          <p class="text-sm-start text-center">
+            Qualidade, Ética, Precisão, Confiabilidade e Compromisso
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!--BENEFÍCIOS DO INVENTÁRIO-->
     <section class="caixa-azul mt-5">
-      <h2 class="text-center pt-3">Benefícios de um inventário</h2>
-      
+      <div class="container text-center">
+        <h3 class="pt-3">Benefícios de um inventário</h3>
+        <div class="row row-cols-xl-2 row-cols-1 mt-4">
+          <div class="col">
+            <h4>Identificar furtos <i class="far fa-smile-wink"></i></h4>
+
+            <p class="text-sm-start text-center ">
+              A realidade do comércio é que ocorrem furtos, os quais
+              afetam sempre os resultados do inventário e causam
+              divergência do seu estoque contábil e estoque físico. É
+              impossível impedir completamente os furtos, mas quando
+              fazemos inventários frequentes podemos fazer
+              revisões do sistema de segurança e desencorajar
+              funcionários desonestos.
+            </p>
+          </div>
+
+          <div class="col">
+            <h4>Identificar perdas <i class="fas fa-search-dollar"></i></h4>
+            <p class="text-sm-start text-center ">
+              O inventário efetuado periodicamente nos permite
+              identificar produtos danificados, vencidos ou que
+              estão próximo de vencer, perdas no recebimento da
+              mercadoria, onde 50% da perda do seu estoque estão
+              concentrado neste item que é imprescindível deixar de
+              conferir a nota fiscal no ato da entrega do fornecedor,
+              conferindo quantidade e produto junto com o pedido de
+              compras em mãos
+            </p>
+          </div>
+
+          <div class="col pt-1">
+            <h4>Estoque contábil atualizado <i class="fas fa-dollar-sign"></i>
+            </h4>
+            <p class="text-sm-start text-center ">
+              Conciliar o estoque físico e contábil, o que permite ajudá-lo
+              na tomada de decisões. Mantendo todos os produtos
+              devidamente cadastrados e atualizados, controlando todo
+              seu estoque para evitar erros no processo de compra,
+              venda e estocagem.
+            </p>
+          </div>
+
+          <div class="col pt-1">
+            <h4>Lançamento de nota fiscal no sistema <i class="far fa-file-alt"></i></h4>
+            <p class="text-sm-start text-center ">
+              É de suma importância dar entrada na nota fiscal dos
+              produtos que chegam para alimentar o estoque contábil. o
+              inventário também irá identificar os erros de lançamentos de
+              notas fiscais no sistema que altera a quantidade do seu
+              estoque contábil e que faz o custo do seu produto diminuir
+              ou aumentar e que afeta sua margem de venda.
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--SERVIÇOS DE INVENTÁRIO-->
+    <section class="mt-5">
+      <section class="full-size background-inventario d-flex text-center justify-content-center align-items-center">
+        <div class="propaganda-inventarios">
+          <h2 class="">Nossos Serviços de Inventários</h2>
+
+          
+          <ul class="bold navbar-nav fs-5 pt-3 text-center">
+            <li class="fw-bold nav-item text-center">
+              Apresentamos acuracidade de estoque.
+              <i class="fas fa-check"></i>
+            </li>
+            <li class="fw-bold nav-item text-center px-3 pt-3">
+              Identificar e relatar possíveis erros de lançamento de notas fiscais.
+              <i class="fas fa-check"></i>
+            </li>
+            <li class="fw-bold nav-item text-center px-3 pt-3 d-none d-sm-block">
+              Apresentamos o valor do registro de perdas baixadas no sistema.
+              <i class="fas fa-check"></i>
+            </li>
+            <li class="fw-bold nav-item text-center pt-3 d-none d-sm-block">
+              Apresentamos o percentual de sobras e perdas sobre as vendas no<spam class="quebra-linha"></spam> período da loja e por departamento.
+              <i class="fas fa-check"></i>
+            </li>
+            <li class="fw-bold nav-item text-center pt-3">
+              Em um relatório à parte, apresentamos as margens de venda de cada produto que está abaixo
+              <spam class="quebra-linha"></spam> da porcentagem mínima que o cliente aceita para verificação e correção.
+              <i class="fas fa-check"></i>
+            </li>   
+            <li class="fw-bold nav-item text-center pt-3 d-none d-sm-block">
+              Apresentamos a quantidade de Sku atual após a validação da contagem e seu histórico a cada<spam class="quebra-linha"></spam> período inventariado.
+
+              <i class="fas fa-check"></i>
+            </li>                     
+          </ul>
+          
+          <spam><a href="/servicos.html" class="fs-5 fw-bold nav-link color">Clique aqui e veja mais serviços!</a></spam>
+        </div>
+      </section>
+
     </section>
 
     <section class="caixa">
@@ -132,7 +280,7 @@
 
   <footer class="bg-footer">
     <section class="container text-center pt-4">
-      <spam>2021 - 2T´s Inventários</spam>   
+      <spam>2021 - 2T´s Inventários</spam>
     </section>
   </footer>
 </body>
