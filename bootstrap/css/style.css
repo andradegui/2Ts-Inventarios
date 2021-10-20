@@ -30,13 +30,6 @@ body{
     border-radius: 5px;
 }
 
-.color  {
-    color:rgb(0, 139, 214)!important;
-}
-
-.color:hover {
-    color:rgb(2, 165, 253)!important
-}
 
 .propaganda-carroussel{
     background-color: rgba(255,255,255,0.75);
@@ -46,10 +39,6 @@ body{
     border-radius:10px;
     margin-bottom: 40px!important;
 
-}
-
-.caixa {
-    height: 480px;
 }
 
 .full-size{
@@ -63,15 +52,33 @@ body{
 }
 
 .propaganda-inventarios{
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.8);
     color: #000;
-    height: calc(60vh - 50px);
+    height: 335px;
+    width: 1000px;
     border-radius:10px;
     margin-bottom: 40px!important;
     justify-content: center;
     align-items: center;
 
 }
+
+.background-TI {
+    background-image: url("/imagens/servicos-TI.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aumenta-fs {
+    font-size: 20px!important;
+}
+
+.icon:hover{
+    color:rgb(0, 139, 214)!important;
+    cursor: pointer;
+}
+
+
 
 footer {
     height: 90px;
@@ -85,4 +92,8 @@ footer {
     background-color: #000;
     color: rgba(0, 139, 214, 0.801)!important;
     cursor: pointer;
+}
+
+.caixa {
+    height: 200px;
 }
