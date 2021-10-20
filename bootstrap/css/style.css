@@ -1,7 +1,15 @@
 /*008CD5*/
 body{
     background-color:rgb(241, 241, 241)!important;
+    font-family: 'Inter', sans-serif!important;
+    padding: 0px !important;
+    margin: 0px !important;
 }
+
+a{
+    color:#000 !important;
+}
+
 
 .color-blue:hover {
     color: rgb(0, 139, 214)!important;
@@ -32,8 +40,8 @@ body{
 
 
 .propaganda-carroussel{
-    background-color: rgba(255,255,255,0.75);
-    color: #000;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: #fff;   
     width: 695px;
     height: 102px;
     border-radius:10px;
@@ -52,8 +60,8 @@ body{
 }
 
 .propaganda-inventarios{
-    background-color: rgba(255,255,255,0.8);
-    color: #000;
+    background-color: rgba(0.6, 0.6, 0.6, 0.6);
+    color: #fff; 
     height: 335px;
     width: 1000px;
     border-radius:10px;
@@ -61,6 +69,15 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+
+.link-servicos {
+    color: rgb(24, 135, 194)!important;  
+}
+
+.link-servicos:hover{
+    font-size: 28px!important;
+    color: rgb(0, 149, 230)!important;  
 }
 
 .background-TI {
@@ -80,6 +97,8 @@ body{
 
 
 
+
+
 footer {
     height: 90px;
 }
@@ -96,4 +115,11 @@ footer {
 
 .caixa {
     height: 200px;
+}
+
+@media (max-width: 400px) {
+    .propaganda-inventarios {
+        height: 345px;
+        width: 1000px;
+    }
 }

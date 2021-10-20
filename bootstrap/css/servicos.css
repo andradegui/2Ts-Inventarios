@@ -1,0 +1,49 @@
+.full-size-servico {
+    height: calc(173vh - 100px);
+}
+
+.background-inventario-servico {
+    background-image: url("/imagens/market.png");
+    background-size: cover;
+    background-attachment: fixed;        
+}
+
+.propaganda-inventarios-servico{
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: #fff;   
+    margin-top: 70px!important;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.background-TI-servico {
+    background-image: url("/imagens/servicos-TI.png");
+    background-size: cover;
+    background-attachment: fixed;        
+}
+
+.full-TI-servico {
+    height: calc(140vh - 100px);
+}
+
+.propaganda-TI-servico{
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: #fff;   
+    margin-top: 20px!important;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+@media (max-width: 400px) {
+    .full-size-servico {
+        height: calc(305vh - 100px);
+    }
+
+    
+
+    .full-TI-servico{
+        height: calc(200vh - 100px);
+    }
+}
