@@ -72,7 +72,7 @@ a{
 }
 
 .link-servicos {
-    color: rgb(24, 135, 194)!important;  
+    color: rgb(0, 166, 255)!important;  
 }
 
 .link-servicos:hover{
@@ -121,5 +121,14 @@ footer {
     .propaganda-inventarios {
         height: 345px;
         width: 1000px;
+    }
+
+    .link-servicos:hover{
+        font-size: 20px!important;
+        color: rgb(0, 149, 230)!important;  
+    }
+
+    .color-blue:hover {
+        color: rgb(0, 139, 214)!important;
     }
 }
