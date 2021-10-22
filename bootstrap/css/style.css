@@ -6,8 +6,10 @@ body{
     margin: 0px !important;
 }
 
-a{
-    color:#000 !important;
+
+
+.white {
+    color: #fff!important;
 }
 
 
@@ -21,6 +23,10 @@ a{
 
 .space-left{
     margin-left: 0px!important;
+}
+
+.arredonda-borda {
+    border-radius: 20px!important;
 }
 
 .caixa-azul {
@@ -43,7 +49,7 @@ a{
     background-color: rgba(0.5, 0.5, 0.5, 0.5);
     color: #fff;   
     width: 695px;
-    height: 102px;
+    height: 112px;
     border-radius:10px;
     margin-bottom: 40px!important;
 
@@ -90,13 +96,14 @@ a{
     font-size: 20px!important;
 }
 
+.icons{
+    color:#000 !important;
+}
+
 .icon:hover{
     color:rgb(0, 139, 214)!important;
     cursor: pointer;
 }
-
-
-
 
 
 footer {
@@ -118,6 +125,22 @@ footer {
 }
 
 @media (max-width: 400px) {
+
+    .propaganda-carroussel-1{
+        height: 200px;
+        margin-bottom: 10px!important; 
+    }
+
+    .propaganda-carroussel-2{
+        height: 250px;
+        margin-bottom: 10px!important;                                      
+    }
+
+    .propaganda-carroussel-3{
+        height: 220px;
+        margin-bottom: 10px!important; 
+    }
+
     .propaganda-inventarios {
         height: 345px;
         width: 1000px;
@@ -132,3 +155,5 @@ footer {
         color: rgb(0, 139, 214)!important;
     }
 }
+
+
