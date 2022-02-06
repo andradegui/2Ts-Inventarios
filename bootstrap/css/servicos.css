@@ -1,5 +1,5 @@
 .full-size-servico {
-    height: calc(173vh - 100px);
+    height: calc(170vh - 100px);
 }
 
 .background-inventario-servico {
@@ -11,7 +11,7 @@
 .propaganda-inventarios-servico{
     background-color: rgba(0.5, 0.5, 0.5, 0.5);
     color: #fff;   
-    margin-top: 70px!important;
+    margin-top: 60px!important;
     justify-content: center;
     align-items: center;
     width: 100%
@@ -38,12 +38,10 @@
 
 @media (max-width: 400px) {
     .full-size-servico {
-        height: calc(305vh - 100px);
-    }
-
-    
+        height: calc(250vh - 100px);
+    }    
 
     .full-TI-servico{
-        height: calc(200vh - 100px);
+        height: calc(195vh - 100px);
     }
 }

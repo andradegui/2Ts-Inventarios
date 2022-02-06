@@ -7,11 +7,9 @@ body{
 }
 
 
-
 .white {
     color: #fff!important;
 }
-
 
 .color-blue:hover {
     color: rgb(0, 139, 214)!important;
@@ -29,34 +27,40 @@ body{
     border-radius: 20px!important;
 }
 
-.caixa-azul {
-    
-    /*background-image: linear-gradient(
-        to bottom,
-        rgb(0, 139, 214),
-        rgb(0, 139, 214),
-        white
-      );
-      */
+.caixa-azul {        
     background-color: rgba(0, 139, 214, 0.801);  
-    background-attachment: fixed;
-    
+    background-attachment: fixed;    
     border-radius: 5px;
 }
 
-
 .propaganda-carroussel{
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: #fff;   
+    width: 695px;
+    height: 135px;
+    border-radius:10px;
+    margin-bottom: 185px!important;
+}
+
+.img-carrousel{
+    width: 100%;
+}
+
+.propaganda2{
     background-color: rgba(0.5, 0.5, 0.5, 0.5);
     color: #fff;   
     width: 695px;
     height: 125px;
     border-radius:10px;
     margin-bottom: 185px!important;
-
 }
 
 .full-size{
     height: calc(110vh - 100px);
+}
+
+.full-size-teste{
+    height: calc(10vh - 10px);
 }
 
 .background-inventario {
@@ -68,13 +72,12 @@ body{
 .propaganda-inventarios{
     background-color: rgba(0.6, 0.6, 0.6, 0.6);
     color: #fff; 
-    height: 335px;
-    width: 1000px;
+    height: 340px!important;
+    width: 1200px;
     border-radius:10px;
     margin-bottom: 40px!important;
     justify-content: center;
     align-items: center;
-
 }
 
 .link-servicos {
@@ -105,7 +108,6 @@ body{
     cursor: pointer;
 }
 
-
 footer {
     height: 90px;
 }
@@ -126,24 +128,36 @@ footer {
 
 @media (max-width: 400px) {
 
+    .full-size{
+        height: calc(50vh - 50px);
+    }
+
+    .full-size-carroussel{
+        height: calc(80vh - 50px);        
+    }        
+
     .propaganda-carroussel-1{
-        height: 200px;
-        margin-bottom: 10px!important; 
+        height: 305px;
+        margin-bottom: 30px!important;          
     }
 
     .propaganda-carroussel-2{
-        height: 250px;
-        margin-bottom: 10px!important;                                      
+        height: 210px;
+        margin-bottom: 95px!important;                                      
     }
 
     .propaganda-carroussel-3{
-        height: 220px;
-        margin-bottom: 10px!important; 
-    }
+        height: 300px;
+        margin-bottom: 30px!important; 
+    }    
 
     .propaganda-inventarios {
-        height: 345px;
-        width: 1000px;
+        height: 445px!important;
+        width: 1000px!important;
+    }
+
+    .full-size-servicos{
+        height: calc(100vh - 50px);
     }
 
     .link-servicos:hover{
