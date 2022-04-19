@@ -45,3 +45,13 @@
         height: calc(195vh - 100px);
     }
 }
+
+@media (max-width: 414px) and (max-height: 736px) {
+    .full-size-servico {
+        height: calc(250vh - 100px);
+    }    
+
+    .full-TI-servico{
+        height: calc(195vh - 100px);
+    }   
+}

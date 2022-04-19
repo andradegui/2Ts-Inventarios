@@ -1,65 +1,65 @@
 /*008CD5*/
-body{
-    background-color:rgb(241, 241, 241)!important;
-    font-family: 'Inter', sans-serif!important;
+body {
+    background-color: rgb(241, 241, 241) !important;
+    font-family: 'Inter', sans-serif !important;
     padding: 0px !important;
     margin: 0px !important;
 }
 
 
 .white {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .color-blue:hover {
-    color: rgb(0, 139, 214)!important;
+    color: rgb(0, 139, 214) !important;
 }
 
-.space{
-    margin: 100px!important;
+.space {
+    margin: 100px !important;
 }
 
-.space-left{
-    margin-left: 0px!important;
+.space-left {
+    margin-left: 0px !important;
 }
 
 .arredonda-borda {
-    border-radius: 20px!important;
+    border-radius: 20px !important;
 }
 
-.caixa-azul {        
-    background-color: rgba(0, 139, 214, 0.801);  
-    background-attachment: fixed;    
+.caixa-azul {
+    background-color: rgba(0, 139, 214, 0.801);
+    background-attachment: fixed;
     border-radius: 5px;
 }
 
-.propaganda-carroussel{
+.propaganda-carroussel {
     background-color: rgba(0.5, 0.5, 0.5, 0.5);
-    color: #fff;   
+    color: #fff;
     width: 695px;
     height: 135px;
-    border-radius:10px;
-    margin-bottom: 185px!important;
+    border-radius: 10px;
+    margin-bottom: 185px !important;
 }
 
-.img-carrousel{
+.img-carrousel {
     width: 100%;
 }
 
-.propaganda2{
+.propaganda2 {
     background-color: rgba(0.5, 0.5, 0.5, 0.5);
-    color: #fff;   
+    color: #fff;
     width: 695px;
     height: 125px;
-    border-radius:10px;
-    margin-bottom: 185px!important;
+    border-radius: 10px;
+    margin-bottom: 185px !important;
 }
 
-.full-size{
+.full-size {
     height: calc(110vh - 100px);
 }
 
-.full-size-teste{
+.full-size-teste {
     height: calc(10vh - 10px);
 }
 
@@ -69,24 +69,31 @@ body{
     background-attachment: fixed;
 }
 
-.propaganda-inventarios{
+.propaganda-inventarios {
     background-color: rgba(0.6, 0.6, 0.6, 0.6);
-    color: #fff; 
-    height: 340px!important;
+    color: #fff;
+    height: 340px !important;
     width: 1200px;
-    border-radius:10px;
-    margin-bottom: 40px!important;
+    border-radius: 10px;
+    margin-bottom: 40px !important;
     justify-content: center;
     align-items: center;
 }
 
 .link-servicos {
-    color: rgb(0, 166, 255)!important;  
+    color: rgb(0, 166, 255) !important;
 }
 
-.link-servicos:hover{
-    font-size: 28px!important;
-    color: rgb(0, 149, 230)!important;  
+.link-servicos:hover {
+    font-size: 28px !important;
+    color: rgb(0, 149, 230) !important;
+    transition: 0.5s ease-in;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .background-TI {
@@ -96,15 +103,15 @@ body{
 }
 
 .aumenta-fs {
-    font-size: 20px!important;
+    font-size: 20px !important;
 }
 
-.icons{
-    color:#000 !important;
+.icons {
+    color: #000 !important;
 }
 
-.icon:hover{
-    color:rgb(0, 139, 214)!important;
+.icon:hover {
+    color: rgb(0, 139, 214) !important;
     cursor: pointer;
 }
 
@@ -112,13 +119,13 @@ footer {
     height: 90px;
 }
 
-.quebra-linha{
+.quebra-linha {
     display: block;
 }
 
 .bg-footer {
     background-color: #000;
-    color: rgba(0, 139, 214, 0.801)!important;
+    color: rgba(253, 253, 253, 0.801) !important;
     cursor: pointer;
 }
 
@@ -126,48 +133,114 @@ footer {
     height: 200px;
 }
 
-@media (max-width: 400px) {
-
-    .full-size{
-        height: calc(50vh - 50px);
+@media (max-width: 768px) and (max-height: 1024px) {
+    .propaganda-carroussel-1 {
+        height: 170px;
+        width: 50px;
+        margin-bottom: 135px !important;
     }
 
-    .full-size-carroussel{
-        height: calc(80vh - 50px);        
-    }        
-
-    .propaganda-carroussel-1{
-        height: 305px;
-        margin-bottom: 30px!important;          
+    .propaganda-carroussel-2 {
+        height: 115px;
+        margin-bottom: 155px !important;
     }
 
-    .propaganda-carroussel-2{
-        height: 210px;
-        margin-bottom: 95px!important;                                      
+    .propaganda-carroussel-3 {
+        height: 160px;
+        margin-bottom: 135px !important;
     }
 
-    .propaganda-carroussel-3{
-        height: 300px;
-        margin-bottom: 30px!important; 
-    }    
+
+}
+
+@media (max-width: 414px) and (max-height: 736px) {
+    .propaganda-carroussel-1 {
+        height: 290px;
+        /* width: 100px; */
+        margin-bottom: 80px !important;
+    }
+
+    .propaganda-carroussel-2 {
+        height: 190px;
+        margin-bottom: 125px !important;
+    }
+
+    .propaganda-carroussel-3 {
+        height: 280px;
+        margin-bottom: 80px !important;
+    }
 
     .propaganda-inventarios {
-        height: 445px!important;
-        width: 1000px!important;
+        height: 445px !important;
+        width: 1000px !important;
     }
 
-    .full-size-servicos{
-        height: calc(100vh - 50px);
-    }
-
-    .link-servicos:hover{
-        font-size: 20px!important;
-        color: rgb(0, 149, 230)!important;  
-    }
-
-    .color-blue:hover {
-        color: rgb(0, 139, 214)!important;
-    }
 }
 
 
+@media (max-width: 375px) and (max-height: 812px) {
+
+    .full-size {
+        height: calc(50vh - 50px);
+    }
+
+    .full-size-carroussel {
+        height: calc(80vh - 50px);
+    }
+
+    .propaganda-carroussel-1 {
+        height: 315px;
+        /* width: 50px; */
+        margin-bottom: 100px !important;
+    }
+
+    .propaganda-carroussel-2 {
+        height: 220px;
+        margin-bottom: 145px !important;
+    }
+
+    .propaganda-carroussel-3 {
+        height: 300px;
+        margin-bottom: 100px !important;
+    }
+
+    .propaganda-inventarios {
+        height: 445px !important;
+        width: 1000px !important;
+
+    }
+
+    .full-size-servicos {
+        height: calc(100vh - 50px);
+    }
+
+    .link-servicos:hover {
+        font-size: 20px !important;
+        color: rgb(0, 149, 230) !important;
+    }
+
+    .color-blue:hover {
+        color: rgb(0, 139, 214) !important;
+    }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+    .propaganda-carroussel-1 {
+        height: 310px;
+        /* width: 100px; */
+        margin-bottom: 50px !important;
+    }
+
+    .propaganda-carroussel-2 {
+        height: 220px;
+        margin-bottom: 95px !important;
+    }
+
+    .propaganda-carroussel-3 {
+        height: 300px;
+        margin-bottom: 45px !important;
+    }
+
+
+
+}
